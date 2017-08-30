@@ -1,29 +1,26 @@
 {
     "name": "sabuncuserhat/monopol",
-    "description": "A PHP wrapper for using Monopol",
-    "keywords": [
-        "Monopol"
-    ],
+    "description": "Common interface for logging libraries",
+    "keywords": ["monopol"],
+    "homepage": "https://github.com/serhatsabuncu/monopol",
     "license": "MIT",
     "authors": [
         {
-            "name": "Serhat Sabuncu",
-            "email": "sabuncuserhat@gmail.com",
-            "role": "Developer"
+            "name": "PHP-FIG",
+            "homepage": "http://www.php-fig.org/"
         }
     ],
     "require": {
-        "php" : ">=5.6.30"
+        "php": ">=5.3.0"
     },
     "autoload": {
         "psr-4": {
-            "Newton\\": "src"
+            "Monopol\\Log\\": "Monopol/Log/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "1.0.x-dev"
         }
-    },
-	"minimum-stability": "dev"
+    }
 }
