@@ -1,0 +1,28 @@
+{
+    "name": "sabuncuserhat/monopol",
+    "description": "A PHP wrapper for using Monopol",
+    "keywords": [
+        "Monopol"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serhat Sabuncu",
+            "email": "sabuncuserhat@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Newton\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
